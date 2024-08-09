@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sailfish - The Ocean's Swiftest Predator</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="sass/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .navbar.fixed-top {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+</style>
+</head>
+<body>
+    <main>
+        <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)),url(about.jpg);
+        width: 100%;
+        height: 400px;
+        background-size:cover; 
+        background-position:center;">
+        <header>
+            <div class="header-container navbar">
+                <div class="logo-container">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="Site Logo" class="logo">
+                </a>
+                </div>
+                <div class="header-content">
+                    <nav>               
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#image-gallery">Gallery</a></li>
+                            <li><a href="prey.html">Prey </a></li>
+                            <li><a href="world.html">World Count</a></li>
+                            <li><a href="honesty.html">Credits</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <br><br><br>
+        </div>
+        <div class="words">
+       <p> The term<b> "world count" </b>is a bit unclear in this context. If you mean the global population or distribution count of sailfish, there isn't a precise figure readily available. Sailfish, belonging to the genus Istiophorus, are widely distributed in the world's tropical and subtropical oceans, and their populations are generally not counted in exact numbers due to the difficulty of monitoring highly migratory species in vast oceanic habitats.<br>
+<br>
+<b>Population and Distribution</b><br>
+<b>Species:</b> There are two recognized species of sailfish: the Atlantic sailfish (Istiophorus albicans) and the Indo-Pacific sailfish (Istiophorus platypterus).<br>
+<br><br>
+<b>Global Presence:</b><br>
+<b>Atlantic Sailfish: </b>Found in the Atlantic Ocean, including the Caribbean Sea and the Gulf of Mexico.<br>
+<b>Indo-Pacific Sailfish: </b>Inhabit the Indian and Pacific Oceans, ranging from the Red Sea and the western coast of Africa to the central Pacific Ocean.<br>
+
+<br><br>
+<b>Population Monitoring</b><br>
+<b>Challenges: </b>Monitoring the exact population of sailfish is challenging due to their wide-ranging nature, deep-water habitats, and migratory patterns.<br>
+<b>Estimations:</b> Population estimates are typically based on fishing data, catch reports, and scientific surveys. However, these estimates are often broad and may not reflect exact numbers.<br>
+<br><br>
+<b>Conservation Status</b><br>
+<b>IUCN Red List: </b>Sailfish are not currently listed as endangered or vulnerable. They are classified as "Least Concern" due to their wide distribution and relatively stable population numbers.<br>
+<b>Threats:</b> Despite not being endangered, sailfish populations can be affected by overfishing, bycatch in commercial fisheries, and habitat changes.<br>
+    </p>
+    </div>
+    <h1>Sailfish Population Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Region</th>
+                <th>Species</th>
+                <th>Estimated Population</th>
+                <th>Assessment Year</th>
+                <th>Conservation Status</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Western Atlantic</td>
+                <td>Atlantic Sailfish</td>
+                <td>~100,000 individuals</td>
+                <td>2023</td>
+                <td>Stable</td>
+                <td>Populations managed with fishing regulations</td>
+            </tr>
+            <tr>
+                <td>Eastern Atlantic</td>
+                <td>Atlantic Sailfish</td>
+                <td>~50,000 individuals</td>
+                <td>2023</td>
+                <td>Stable</td>
+                <td>Includes Mediterranean waters</td>
+            </tr>
+            <tr>
+                <td>Gulf of Mexico</td>
+                <td>Atlantic Sailfish</td>
+                <td>~75,000 individuals</td>
+                <td>2023</td>
+                <td>Stable</td>
+                <td>Popular sport fishing area</td>
+            </tr>
+            <tr>
+                <td>Western Indian Ocean</td>
+                <td>Indo-Pacific Sailfish</td>
+                <td>~120,000 individuals</td>
+                <td>2023</td>
+                <td>Stable</td>
+                <td>Subject to bycatch in commercial fisheries</td>
+            </tr>
+            <tr>
+                <td>Eastern Indian Ocean</td>
+                <td>Indo-Pacific Sailfish</td>
+                <td>~80,000 individuals</td>
+                <td>2023</td>
+                <td>Stable</td>
+                <td>Varies by region, fishing regulations in place</td>
+            </tr>
+            <tr>
+                <td>Western Pacific</td>
+                <td>Indo-Pacific Sailfish</td>
+                <td>~150,000 individuals</td>
+                <td>2023</td>
+                <td>Stable</td>
+                <td>Populations stable but affected by fishing</td>
+            </tr>
+           
+        </tbody>
+    </table>
+    <footer>
+        &copy; 2024 Sailfish Research Project
+    </footer>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 50) {
+                    $('.navbar').addClass('fixed-top');
+                } else {
+                    $('.navbar').removeClass('fixed-top');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

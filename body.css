@@ -1,0 +1,286 @@
+/* Existing body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+p
+
+/* Header styles */
+header {
+    background:transparent;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner p{
+    font-size:40px;
+    padding:200px;
+}
+button{
+    font-size: 20px;
+    background:transparent;
+    border-color: orange;
+    border-radius: 10px;
+}
+/* Header container to align logo and content */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between logo and header content */
+    width: 100%;
+    max-width: 1200px; /* Optional: Set a maximum width for better control */
+    margin: 0 auto; /* Center the header container */
+}
+
+/* Logo container */
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    height: 90px; /* Adjust the height as needed */
+    width: auto;
+}
+
+/* Header content container */
+.header-content {
+    flex: 5; /* Allows header content to take up more space */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align header content */
+}
+
+/* Header title styles */
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+nav{
+    height: 125px;
+    margin: auto; 
+    width: 100%;
+     padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+            }
+/* Navigation styles */
+nav ul {
+            display: flex;
+            justify-content: space-between;
+            margin-left: auto;
+            padding: 10px 10px;
+}
+
+nav ul li {
+  
+    position: relative;
+    display: inline;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding: 10px;
+  
+}
+button a {
+    
+    text-decoration: none;
+
+}
+
+/* Main content styles */
+
+
+section {
+   
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    height: 50px;
+}
+
+/* Ensure footer visibility */
+
+/* Image gallery styles */
+section#image-gallery {
+    display: flex;
+    overflow: hidden; /* Hide overflowing content */
+    width: 100%;
+    position: relative;
+}
+
+#image-gallery .gallery-content {
+    display: flex;
+    animation: slide 15s linear infinite; /* Adjust the duration for smoothness */
+    width: calc(200%); /* Ensure the container takes double the full width */
+}
+
+#image-gallery .gallery-content figure {
+    margin: 10px;
+    text-align: center;
+    flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+}
+
+section#image-gallery img {
+    height: 500px;
+    width: 600px;
+}
+
+section#image-gallery figure:hover {
+    animation-play-state: paused;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+/* Keyframes for smooth looping slide animation */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* About page styles */
+.gallery-detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-detail figure {
+    flex: 1 1 calc(33.333% - 10px); /* Three images per row with a gap */
+    box-sizing: border-box;
+}
+
+.gallery-detail img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.video-gallery figure {
+    flex: 1 1 calc(33.333% - 10px); /* Three videos per row with a gap */
+    box-sizing: border-box;
+}
+
+.video-gallery video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+}
+footer{
+	            background-color: #622a2a;
+            color: #fff;
+            display: flex;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+}
+.box{
+    border-radius: 20px;
+    margin-left: 250px;
+	width: 1000px;
+	height: 400px;
+	background-color: #4cadd0;
+    color:#4a474a
+	
+	
+}
+#box1{
+   align-items: center;
+    border-radius: 20px;
+	width: 1520px;
+	height: 500px;
+	background-color: #bbb2bc;
+    color: black;
+    text-decoration: none;
+	
+}
+
+  
+  .img{
+      width:350px;
+      height: 400px;
+      margin: 1px;
+      
+  }
+  
+ 
+  .words p{
+    font-size: 20px;
+    margin: 0%;
+  }

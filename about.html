@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sailfish - The Ocean's Swiftest Predator</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="sass/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .navbar.fixed-top {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)),url(about.jpg);
+        width: 100%;
+        height: 400px;
+        background-size:cover; 
+        background-position:center;">
+        <header>
+            <div class="header-container navbar">
+                <div class="logo-container">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="Site Logo" class="logo">
+                </a>
+                </div>
+                <div class="header-content">
+                    <nav>               
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#image-gallery">Gallery</a></li>
+                            <li><a href="prey.html">Prey </a></li>
+                            <li><a href="world.html">World Count</a></li>
+                            <li><a href="honesty.html">Credits</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <br><br><br>
+        <br><br><br>
+     </div>
+        <p style="font-size: 20px; margin-left:100px">
+            <b>About Us</b>
+<br>
+Welcome to Sailfish Adventure, your ultimate destination for all things sailfish! Our passion for these incredible creatures drives us to provide you with the most captivating and comprehensive information about sailfish and their fascinating world.
+<br><br>
+                <b> Our Mission</b>
+<br>
+At Sailfish Adventure, our mission is to inspire awe and appreciation for sailfish by showcasing their extraordinary speed, agility, and beauty. We aim to educate and engage our visitors through stunning visuals, in-depth articles, and interactive content that highlights the significance of sailfish in marine ecosystems.
+<br><br>
+<b>What We Offer</b>
+<br>
+ <b>Educational Content:</b> Dive deep into the world of sailfish with our extensive articles and blog posts. Learn about their behavior, habitat, diet, and role in the ocean's food web.
+<br> <b>Stunning Videos:</b> Experience the thrill of sailfish in action through our curated collection of breathtaking videos. Watch as these majestic creatures showcase their incredible hunting skills and swift movements.
+<br><b> Conservation Efforts:</b> Understand the importance of preserving sailfish populations and their natural habitats. We provide information on current conservation initiatives and how you can contribute to protecting these remarkable fish.
+<br><b> Community Engagement: </b>Join our community of sailfish enthusiasts! Share your experiences, participate in discussions, and stay updated on the latest sailfish news and research.
+<br><br>
+<b>Our Vision</b>
+<br>
+We envision a world where sailfish and their marine environments are cherished and protected. By raising awareness and fostering a sense of wonder, we hope to contribute to the conservation of sailfish and ensure that future generations can continue to marvel at their splendor.
+<br><br>
+<b>Get Involved</b>
+<br>
+We believe that everyone can play a part in protecting our oceans and the amazing creatures that inhabit them. Here are a few ways you can get involved:
+<br>
+ <b>Stay Informed:</b> Keep up with our latest articles and updates to stay informed about sailfish and marine conservation.
+<br> <b>Spread the Word:</b> Share our content with friends and family to help raise awareness about the importance of sailfish and ocean conservation.
+<br> <b>Support Conservation Efforts:</b> Consider donating to organizations dedicated to marine conservation or participating in local beach clean-ups and conservation projects.
+<br><br>
+<b>Contact Us</b>
+<br>
+Have questions or want to learn more about sailfish? We’d love to hear from you! Reach out to us through our contact page, and follow us on social media to stay connected with our latest updates and community activities.
+<br>
+Thank you for visiting Sailfish Adventure. Together, we can make a difference in preserving the wonders of the ocean and the majestic sailfish.
+          </h6>
+          <br><br>
+          <span  style="margin-left: 400px; font-size:30px;">To explore more </span>
+          <br><br>
+          <button style="background-color:#e84b4b; color:azure; margin-left: 450px; font-size:20px;"><a href="https://en.wikipedia.org/wiki/Sailfish">Click Now</a> </button>
+        <section>
+           
+            
+        <section>
+            <h2>Videos of Sailfish</h2>
+            <div class="video-gallery">
+                <figure>
+                    <video controls>
+                        <source src="vid/video1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption>Credit: Ocean Films</figcaption>
+                </figure>
+                <figure>
+                    <video controls>
+                        <source src="vid/video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption>Credit: Marine Life Videos</figcaption>
+                </figure>
+                <figure>
+                    <video controls>
+                        <source src="vid/video3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption>Credit: Nature Clips</figcaption>
+                </figure>
+                <figure>
+                    <video controls>
+                        <source src="vid/video4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption>Credit: Ocean Films</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sailfish Research Project</p>
+    </footer>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 50) {
+                    $('.navbar').addClass('fixed-top');
+                } else {
+                    $('.navbar').removeClass('fixed-top');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

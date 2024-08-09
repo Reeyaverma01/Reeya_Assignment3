@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sailfish - The Ocean's Swiftest Predator</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="sass/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .navbar.fixed-top {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)),url(about.jpg);
+        width: 100%;
+        height: 400px;
+        background-size:cover; 
+        background-position:center;">
+        <header>
+            <div class="header-container navbar">
+                <div class="logo-container">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="Site Logo" class="logo">
+                </a>
+                </div>
+                <div class="header-content">
+                    <nav>               
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#image-gallery">Gallery</a></li>
+                            <li><a href="prey.html">Prey </a></li>
+                            <li><a href="world.html">World Count</a></li>
+                            <li><a href="honesty.html">Credits</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        
+        </header>
+        <br><br>
+        </div>
+        <div class="words">
+       <p><b><span style="font-size:20px">Prey of Sailfish</b></span> <br><br><br>  
+     
+ Sailfish are carnivorous and primarily feed on a variety of smaller marine organisms. Their diet mainly consists of:<br>
+
+    
+   <b> Small Pelagic Fish:</b> Sailfish commonly feed on small schooling fish such as sardines, anchovies, mackerels, and herrings.<br>
+   <b>Flying Fish:</b> They also prey on flying fish, which are capable of leaping out of the water to escape predators.
+<br>
+<b>Squid:</b> Squid are a significant part of the sailfish diet, especially in areas where these cephalopods are abundant.
+<br><br>
+
+<img src="prey1.jpg" class="img">
+<img src="prey2.jpg" class="img">
+<br><br>
+<br><br>
+<b><span style="font-size:20px">Predators of Sailfish</b></span> <br><br> 
+
+While adult sailfish are among the top predators in their habitat, they still face threats from larger marine animals and human activities:<br>
+
+<b>Sharks:</b>
+Large shark species, such as the great white shark, tiger shark, and mako shark, are known to prey on sailfish. Sharks may target younger or injured sailfish, which are easier to catch.<br>
+<b>Orcas (Killer Whales):</b>
+Orcas are apex predators that occasionally hunt large fish, including sailfish. However, such encounters are relatively rare due to the open ocean habitat of sailfish.<br>
+
+<b>Commercial Fishing:</b> Sailfish are sometimes caught as bycatch in commercial fishing operations targeting other species. This accidental capture can impact sailfish populations.<br>
+<b>Sport Fishing:</b> While sailfish are popular in sport fishing, many anglers practice catch and release. However, some individuals are still harvested, which can affect local populations if not managed sustainably.
+<br><br>
+<img src="predator1.jpg" class="img">
+        
+<img src="predator2.jpg" class="img">
+</p>
+</div>
+<footer>
+    &copy; 2024 Sailfish Research Project
+</footer>
+    </main>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 50) {
+                    $('.navbar').addClass('fixed-top');
+                } else {
+                    $('.navbar').removeClass('fixed-top');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
